@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Play, ArrowRight, Heart, X, Quote } from 'lucide-react';
 import BentoCard from '../components/BentoCard';
 import { HERO_MESSAGE, MAIN_LETTER, PLACEHOLDER_VIDEO } from '../constants';
+
 import { AppRoute } from '../types';
 
 interface HomeProps {
@@ -58,7 +59,7 @@ const MainLetterModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({ i
 
                 <div className="mt-16 pt-8 border-t border-black/5 flex justify-center">
                    <p className="font-handwriting text-4xl text-text-muted transform -rotate-2">
-                     Love always, Alex
+                     Love always, Cristof Siringan
                    </p>
                 </div>
               </div>
@@ -97,7 +98,7 @@ const HomeVideoModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({ is
                 className="w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl pointer-events-auto relative"
              >
                 <video 
-                  src={PLACEHOLDER_VIDEO} 
+                  src="./VID_20260112_222809.mp4" 
                   className="w-full h-full object-cover" 
                   autoPlay 
                   controls 
@@ -191,7 +192,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           </div>
           <div className="absolute bottom-6 left-6 text-white">
             <span className="text-xs font-bold uppercase tracking-widest opacity-80">Watch Video</span>
-            <h3 className="font-outfit text-xl font-semibold mt-1">Our Year in 3 Minutes</h3>
+            <h3 className="font-outfit text-xl font-semibold mt-1">My Video Message for you</h3>
           </div>
         </BentoCard>
 

@@ -46,22 +46,23 @@ export const PLAYLIST: Track[] = [
 ];
 
 export const HERO_MESSAGE = {
-  greeting: "Happy Birthday, Sarah",
+  greeting: "Happy Birthday, Iza",
   subtitle: "A little corner of the internet, just for you.",
   intro: "I wanted to build something that lasts longer than flowers. Navigate through your memories, read letters from the people who love you, and listen to the songs that remind me of us."
 };
 
 export const MAIN_LETTER = `
-My Dearest Sarah,
+My Dearest Iza,
 
-As you turn another year older, I find myself looking back at all the moments that have led us here. From that first awkward coffee date to our late-night drives listening to this exact playlist, every second has been a gift.
+I have been looking forward to January 13 because it’s the day the world got a little brighter. Now that you’re turning 20, it feels like such a big and exciting step, and I am so happy I get to be by your side for it.
 
-You bring so much light into the world. Your laugh is my favorite sound, and your kindness inspires me daily. I built this site because I wanted you to see yourself through my eyes—and through the eyes of everyone who cherishes you.
+I want to thank you for being the person you are. You are my biggest source of joy, and just being around you makes my life so much better. But what I love most is that you don’t just keep that light for yourself—you share it with everyone.
 
-Take your time exploring. This is your digital sanctuary.
+I see how much your friends love you and how much they count on you. Whether someone needs a helping hand, a kind word, or just someone to listen, you are always the first person to be there. You are so thoughtful and so reliable, not just to me, but to every single person who is lucky enough to know you. You always put others first, and it’s one of the most beautiful things about you.
 
-Love always,
-Alex
+On your special day, I hope you feel all that love coming back to you. I hope you know how much you are appreciated and how much you are loved. You deserve a year that is as wonderful and kind as your heart is.
+
+Happy Birthday, Bebi! I love you so much Mahal.
 `;
 
 // Placeholder ambient video for friend cards
