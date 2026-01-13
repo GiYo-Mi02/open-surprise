@@ -3,7 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { MailOpen, Play, Volume2, VolumeX } from 'lucide-react';
 import BentoCard from '../components/BentoCard';
 
-// Video file paths from public folder
+// Video file paths - UPDATE THESE WITH YOUR CLOUD STORAGE URLS
+// For local development, use: '/VID_20260112_222809.mp4'
+// For production, use your cloud storage URLs like: 'https://your-bucket.r2.dev/VID_20260112_222809.mp4'
 const VIDEO_FILES = [
   '/VID_20260112_222809.mp4',
   '/VID_20260112_062328_024.mp4',
