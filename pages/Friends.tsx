@@ -3,20 +3,19 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { MailOpen, Play, Volume2, VolumeX } from 'lucide-react';
 import BentoCard from '../components/BentoCard';
 
-// Video file paths - UPDATE THESE WITH YOUR CLOUD STORAGE URLS
-// For local development, use: '/VID_20260112_222809.mp4'
-// For production, use your cloud storage URLs like: 'https://your-bucket.r2.dev/VID_20260112_222809.mp4'
+// Video files from Google Cloud Storage
+// Replace 'birthday-videos-2026' with your actual bucket name
 const VIDEO_FILES = [
-  '/VID_20260112_222809.mp4',
-  '/VID_20260112_062328_024.mp4',
-  '/VID_20260112_062319_992.mp4',
-  '/VID_20260112_062314_586.mp4',
-  '/VID_20260111_184346.mp4',
-  '/VID_20260110_225242.mp4',
-  '/video_20260111_213051.mp4',
-  '/VID20260111212505.mp4',
-  '/VID20260110214617.mp4',
-  '/Messenger_creation_33C00315-1962-4CA7-93CC-6ADCFE3E3996.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID_20260112_222809.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID_20260112_062328_024.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID_20260112_062319_992.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID_20260112_062314_586.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID_20260111_184346.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID_20260110_225242.mp4',
+  'https://storage.googleapis.com/birthday_videos2/video_20260111_213051.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID20260111212505.mp4',
+  'https://storage.googleapis.com/birthday_videos2/VID20260110214617.mp4',
+  'https://storage.googleapis.com/birthday_videos2/Messenger_creation_33C00315-1962-4CA7-93CC-6ADCFE3E3996.mp4',
 ];
 
 // Letter images from public folder
